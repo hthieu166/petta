@@ -1,0 +1,28 @@
+MODEL:
+  ARCH: Standard
+
+TTA_DATA_DIR: /mnt/data0-nfs/shared-datasets/
+SRC_DATA_DIR: /mnt/data0-nfs/shared-datasets/CIFAR
+
+CORRUPTION:
+  DATASET: cifar10c_recur
+  RECUR: 20
+  NUM_CLASS: 10
+  SEVERITY:
+    - 5
+  TYPE:
+    - motion_blur
+    - snow
+    - fog
+    - shot_noise
+    - defocus_blur
+    - contrast
+    - zoom_blur
+    - brightness
+    - frost
+    - elastic_transform
+    - glass_blur
+    - gaussian_noise
+    - pixelate
+    - jpeg_compression
+    - impulse_noise

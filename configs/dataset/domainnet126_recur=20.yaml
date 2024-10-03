@@ -1,0 +1,10 @@
+MODEL:
+  ARCH: resnet50
+
+TTA_DATA_DIR: /mnt/data0-nfs/shared-datasets/DomainNet
+SRC_DATA_DIR: /mnt/data0-nfs/shared-datasets/DomainNet
+
+CORRUPTION:
+  DATASET: domainnet126_recur
+  RECUR: 20
+  NUM_CLASS: 126

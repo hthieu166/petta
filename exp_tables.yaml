@@ -1,0 +1,18 @@
+CIFAR-10-C:
+  - name: PeTTA
+    fold: outputs/petta/cifar10c_recur=20/cifar10c_recur=20_petta_cifar10c_default
+  - name: RoTTA
+    fold: outputs/rotta/cifar10c_recur=20/cifar10c_recur=20_rotta_cifar10c_default
+
+CIFAR-100-C:
+  - name: PeTTA
+    fold: outputs/petta/cifar100c_recur=20/cifar100c_recur=20_petta_cifar100c_default
+  - name: RoTTA
+    fold: outputs/rotta/cifar100c_recur=20/cifar100c_recur=20_rotta_cifar100c_default
+
+IMAGENET-C:
+  - name: PeTTA
+    fold: outputs/petta/imagenetc_recur=20/imagenetc_recur=20_petta_imagenetc_default
+  - name: RoTTA
+    fold: outputs/rotta/imagenetc_recur=20/imagenetc_recur=20_rotta_imagenetc_default
+  

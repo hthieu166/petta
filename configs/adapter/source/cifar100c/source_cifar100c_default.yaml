@@ -1,0 +1,12 @@
+TEST:
+  BATCH_SIZE: 64
+
+INPUT:
+  SIZE: (32, 32)
+
+ADAPTER:
+  NAME: source
+  
+LOADER:
+  SAMPLER:
+    TYPE: "class_temporal"
